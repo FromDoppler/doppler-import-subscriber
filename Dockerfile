@@ -30,4 +30,4 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 ARG version=unknown
 RUN echo $version > /app/version.txt
-ENTRYPOINT ["dotnet", "Doppler.Import.Subscribers.App.exe"]
+ENTRYPOINT ["dotnet", "Doppler.Import.Subscribers.Cli.exe"]
