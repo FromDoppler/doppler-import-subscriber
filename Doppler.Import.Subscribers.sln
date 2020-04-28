@@ -18,9 +18,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		verify-w-docker.sh = verify-w-docker.sh
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doppler.Import.Subscribers.App", "Doppler.Import.Subscribers.App\Doppler.Import.Subscribers.App.csproj", "{1CF2AA13-BB7E-46CE-9DB4-67E6FD5045DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doppler.Import.Subscribers.Cli", "Doppler.Import.Subscribers.Cli\Doppler.Import.Subscribers.Cli.csproj", "{1CF2AA13-BB7E-46CE-9DB4-67E6FD5045DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doppler.Import.Subscribers.Test", "Doppler.Import.Subscribers.Test\Doppler.Import.Subscribers.Test.csproj", "{8BCA22DB-E06C-4BFF-984B-1C8B18471A66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doppler.Import.Subscribers.Test", "Doppler.Import.Subscribers.Test\Doppler.Import.Subscribers.Test.csproj", "{8BCA22DB-E06C-4BFF-984B-1C8B18471A66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

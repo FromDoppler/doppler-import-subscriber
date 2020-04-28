@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Doppler.Import.Subscribers.App
+namespace Doppler.Import.Subscribers.Cli
 {
     class Program
     {

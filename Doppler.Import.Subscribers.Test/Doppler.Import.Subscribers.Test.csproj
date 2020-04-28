@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Doppler.Import.Subscribers.App\Doppler.Import.Subscribers.App.csproj" />
+    <ProjectReference Include="..\Doppler.Import.Subscribers.Cli\Doppler.Import.Subscribers.Cli.csproj" />
     <ProjectReference Include="..\Doppler.Import.Subscribers\Doppler.Import.Subscribers.csproj" />
   </ItemGroup>
 

@@ -15,12 +15,9 @@ cd $(dirname $0)
 export MSYS_NO_PATHCONV=1
 export MSYS2_ARG_CONV_EXCL="*"
 
-imageName=fromdoppler/doppler-import-Subscriber
+imageName=fromdoppler/doppler-import-Subscribers
 
 docker build \
     -t ${imageName}:local \
-    --build-arg EncryptionSettings__InitVectorAsAsciiString="$EncryptionSettings__InitVectorAsAsciiString" \
-    --build-arg EncryptionSettings__SaltValueAsAsciiString="$EncryptionSettings__SaltValueAsAsciiString" \
-    --build-arg EncryptionSettings__Password="$EncryptionSettings__Password" \
     --build-arg version=local-$(date +"%Y%m%d_%H%M") \
     .
